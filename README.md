@@ -1,3 +1,3 @@
 WiKi
 ====
-Wiki for [WeCase](https://github.xom/WeCase/WeCase)
+Wiki for [WeCase](https://github.com/WeCase/WeCase)
