@@ -1,0 +1,50 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<title>WeCase WiKi 提纲</title>
+</head>
+<body>
+	<h2>WeCase WiKi 提纲</h2>
+	<h3>WeCase 项目简介</h3>
+	<ul>
+		<li>WeCase 是关于什么的</li>
+		<li>WeCase 项目发起时间</li>
+		<li>WeCase 项目将要解决什么问题</li>
+		<li>WeCase 项目目前的成果</li>
+		<li>WeCase 项目主要开发人员</li>
+	</ul>
+	<h3>WeCase 安装方式</h3>
+	<ol>
+		<li>WeCase “完整的”依赖列表</li>
+		<ul>
+			<li>WeCase 主程序依赖</li>
+			<ol>
+				<li>Python 3</li>
+				<li>Python-Qt4</li>
+				<li>...</li>
+			</ol>
+			<li>WeCase Make依赖</li>
+			<li>WeCase 可选依赖</li>
+		</ul>
+		<li>WeCase 安装方式</li>
+		<ol>
+			<li>Authon</li>
+			<li>Arch</li>
+			<li>Fedora</li>
+			<li>源代码</li>
+			<li>...</li>
+		</ol>
+	</ol>
+	<h3>WeCase “可能存在的”卸载方式</h3>
+	<h3>WeCase FAQ</h3>
+	<ol>
+		<li>...</li>
+		<li>...</li>
+		<li>...</li>
+	</ol>
+	<h3>WeCase 更新日志</h3>
+	<h3>WeCase 开发指南</h3>
+	<h3>WeCase 联系方式</h3>
+	<p style="color:red">请将本提纲转成 Markdown 格式</p>
+</body>
+</html>
