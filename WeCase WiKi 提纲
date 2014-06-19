@@ -8,10 +8,17 @@
 	<h3>WeCase 项目简介</h3>
 	<ul>
 		<li>WeCase 是关于什么的</li>
+			<p>WeCase 是一款专注于 Linux 平台的新浪微博客户端,
+			快速、轻巧、操作简单，适合大多数 Linux 桌面用户使用，
+			还有关键词过滤，没有关键词数量限制，
+			而且相对于网页版微博， WeCase 还做到了无页面广告的视觉骚扰，
+			免除了微博使用 Adobe®Flash Player® 造成的页面崩溃，还降低了内存占用。</p>
 		<li>WeCase 项目发起时间</li>
-		<li>WeCase 项目将要解决什么问题</li>
+			<p>发起年月日...我忘了</p>
 		<li>WeCase 项目目前的成果</li>
+			<p>0.06-beta7</p>
 		<li>WeCase 项目主要开发人员</li>
+			<p>参考 GitHub </p>
 	</ul>
 	<h3>WeCase 安装方式</h3>
 	<ol>
@@ -36,6 +43,7 @@
 		</ol>
 	</ol>
 	<h3>WeCase “可能存在的”卸载方式</h3>
+		<p>该怎么删怎么删</p>
 	<h3>WeCase FAQ</h3>
 	<ol>
 		<li>...</li>
