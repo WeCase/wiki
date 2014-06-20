@@ -43,7 +43,7 @@
 		</ol>
 	</ol>
 	<h3>WeCase “可能存在的”卸载方式</h3>
-		<p>该怎么删怎么删</p>
+		<p>在源码目录以根用户执行<code>make uninstall</code></p>
 	<h3>WeCase FAQ</h3>
 	<ol>
 		<li>...</li>
