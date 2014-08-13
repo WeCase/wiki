@@ -8,11 +8,11 @@ WeCase 是一款专注于 Linux 平台的新浪微博客户端,快速、轻巧�
 
 *	WeCase 项目发起时间
 
-发起年月日
+*	WeCase 项目发起年月日
 
 *	WeCase 项目目前的成果
 
-0.06-beta7
+0.06-beta8 发布
 
 *	WeCase 项目主要开发人员
 
@@ -28,21 +28,71 @@ WeCase 是一款专注于 Linux 平台的新浪微博客户端,快速、轻巧�
 
 *	Python Qt4 Bindings, `python3-qt4`
 
-*	Python Sina Weibo API, `sinaweibopy3`
+*	Python Sina Weibo API, `rpweibo`
+
+*	Development tools for PyQt / Qt
 
 #####	WeCase Make依赖
 
+*	Make
+
+*	Automake
+
 #####	WeCase 可选依赖
+
+*	Python-notify2, `python3-notify2`
+
+#####	安装代码
+
+```
+git clone git://github.com/WeCase/WeCase.git
+
+# 编译和安装
+./bootstrap.sh
+mkdir build
+cd build
+../configure
+make
+sudo make install
+
+# 运行
+wecase
+```
 
 ####	自发行版
 
 *	Anthon
 
+`apt-get install wecase`
+
 *	Arch
+
+`yaourt -S wecase`
 
 *	Fedora
 
-###	WeCase “可能存在的”卸载方式
+```
+sudo su -c "wget -O- http://download.opensuse.org/repositories/home:/biergaizi/Fedora_$(rpm -E %fedora)/home:biergaizi.repo > /etc/yum.repos.d/wecase.repo"
+sudo yum install WeCase
+```
+
+*	Ubuntu
+
+```
+sudo apt-get install python-software-properties 
+sudo add-apt-repository ppa:wecase/ppa 
+sudo apt-get update 
+sudo apt-get install wecase 
+```
+
+*	Gentoo
+
+```
+layman -a gentoo-zh
+emerge net-misc/WeCase
+```
+
+###	WeCase 卸载方式
 
 *	在源码目录以根用户执行`make uninstall`
 
