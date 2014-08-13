@@ -8,7 +8,7 @@ WeCase 是一款专注于 Linux 平台的新浪微博客户端,快速、轻巧�
 
 *	WeCase 项目发起时间
 
-*	WeCase 项目发起年月日
+发起年月日
 
 *	WeCase 项目目前的成果
 
